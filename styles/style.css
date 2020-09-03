@@ -1,0 +1,72 @@
+
+
+body {
+  background-size: 100%;
+  background-image: url('../images/sea-background_2.png');
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 900px;
+  height: 600px;
+}
+
+.gameOver {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-top: 80px;
+  /* background-color: black; */
+  width: 900px;
+  height: 600px;
+  right: 700px;
+}
+
+.score {
+  font-family: sans-serif;
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  font-weight: 900;
+  color: red;
+  font-size: 50px;
+  text-shadow: -4px 3px snow;
+}
+
+
+
+
+.winner{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 80px;
+    /* background-color: black; */
+    width: 900px;
+    height: 600px;
+    right: 700px;
+}
+
+.score2 {
+  font-family: sans-serif;
+  position: absolute;
+  top: 10%;
+  left: 60%;
+  font-weight: 900;
+  color: red;
+  font-size: 50px;
+  text-shadow: -4px 3px snow;
+}
+
+
+.display {
+  display: none;
+}
+
+
